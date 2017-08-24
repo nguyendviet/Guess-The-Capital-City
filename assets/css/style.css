@@ -1,0 +1,60 @@
+body {
+	background-image: url("../images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+audio {
+	preload: none;
+}
+
+img {
+	max-width: 100px;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.9;
+	margin: 30px auto;
+	padding: 5%;
+	border: 2px dashed #d4af37;
+	border-radius: 8px;
+	font-size: 30px;
+	line-height: 60px;
+	font-family: 'Courgette', cursive;
+}
+
+.country {
+	display: none;
+	color: white;
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.small {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.button {
+	width: 200px;
+	height: 60px;
+	background-color: #d4af37;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.button:hover {
+	background-color: #bd9b28;
+	text-shadow: 0 0 5px #ffff00;
+	box-shadow: 0 0 5px #ffff00;
+}
+
+#nameDisplay {
+	font-size: 60px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<link rel="stylesheet" href="assets/css/reset.css"/>
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<title>Guess The Capital City</title>
+	</head>
+	
+	<body>
+		<div class="container" id="container">
+			<div class="main">
+				<div id="notice">Guess the name of a capital city:</div>
+				
+				<div>
+					<div class="country" id="ag"><p>Capital city of Antigua and Barbuda</p><img src="assets/images/flag_ag.svg"/></div>
+					<div class="country" id="au"><p>Capital city of Australia</p><img src="assets/images/flag_au.svg"/></div>
+					
+					<div class="country" id="bs"><p>Capital city of The Bahamas</p><img src="assets/images/flag_bs.svg"/></div>
+					<div class="country" id="bb"><p>Capital city of Barbados</p><img src="assets/images/flag_bb.svg"/></div>
+					<div class="country" id="bz"><p>Capital city of Belize</p><img src="assets/images/flag_bz.svg"/></div>
+					
+					<div class="country" id="ca"><p>Capital city of Canada</p><img src="assets/images/flag_ca.svg"/></div>
+					
+					<div class="country" id="dm"><p>Capital city of Dominica</p><img src="assets/images/flag_dm.svg"/></div>
+					
+					<div class="country" id="gh"><p>Capital city of Ghana</p><img src="assets/images/flag_gh.svg"/></div>
+					<div class="country" id="gd"><p>Capital city of Grenada</p><img src="assets/images/flag_gd.svg"/></div>
+					<div class="country" id="gy"><p>Capital city of Guyana</p><img src="assets/images/flag_gy.svg"/></div>
+					
+					<div class="country" id="jm"><p>Capital city of Jamaica</p><img src="assets/images/flag_jm.svg"/></div>
+					
+					<div class="country" id="ke"><p>Capital city of Kenya</p><img src="assets/images/flag_ke.svg"/></div>
+					
+					<div class="country" id="ng"><p>Capital city of Nigeria</p><img src="assets/images/flag_ng.svg"/></div>
+					<div class="country" id="nz"><p>Capital city of New Zealand</p><img src="assets/images/flag_nz.svg"/></div>
+					
+					<div class="country" id="kn"><p>Capital city of Saint Kitts and Nevis</p><img src="assets/images/flag_kn.svg"/></div>
+					<div class="country" id="vc"><p>Capital city of Saint Vincent and the Grenadines</p><img src="assets/images/flag_vc.svg"/></div>
+					<div class="country" id="sl"><p>Capital city of Sierra Leone</p><img src="assets/images/flag_sl.svg"/></div>
+					<div class="country" id="sg"><p>Capital city of city-state Singapore</p><img src="assets/images/flag_sg.svg"/></div>
+					
+					<div class="country" id="tt"><p>Capital city of Trinidad and Tobago</p><img src="assets/images/flag_tt.svg"/></div>
+					
+					<div class="country" id="uk"><p>Capital city of United Kingdom</p><img src="assets/images/flag_uk.svg"/></div>
+					<div class="country" id="us"><p>Capital city of United States</p><img src="assets/images/flag_us.svg"/></div>
+					
+					<div class="country" id="vn"><p>Capital city of Vietnam</p><img src="assets/images/flag_vn.svg"/></div>
+				</div>
+				
+				<div>
+					<audio src="assets/audio/anthem_au.mp3" id="anthemAu" type="audio/mp3"/>
+					<audio src="assets/audio/anthem_ca.mp3" id="anthemCa" type="audio/mp3"/>
+					<audio src="assets/audio/anthem_uk.mp3" id="anthemUk" type="audio/mp3"/>
+					<audio src="assets/audio/anthem_us.mp3" id="anthemUs" type="audio/mp3"/>
+					<audio src="assets/audio/anthem_vn.mp3" id="anthemVn" type="audio/mp3"/>
+				</div>
+				
+				<div id="nameDisplay"></div>
+				<div>Attempt(s) remaining: <span id="attempt"></span></div>
+				<div>Letter(s) used: <span id="wrongGuess"></span></div>
+				<p class="small">Fun fact: No *official capital city has a name that starts with E or X.</p>
+				<div class="button" id="newGame">New Game</div>
+			</div>
+		</div>
+		<script src="assets/javascript/game.js"></script>
+	</body>
+</html>
