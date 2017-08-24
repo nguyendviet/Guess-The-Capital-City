@@ -18,13 +18,14 @@ img {
 	height: 100%;
 	background-color: white;
 	opacity: 0.9;
-	margin: 30px auto;
+	margin: 30px 4%;
 	padding: 5%;
 	border: 2px dashed #d4af37;
 	border-radius: 8px;
 	font-size: 30px;
 	line-height: 60px;
 	font-family: 'Courgette', cursive;
+	display: inline-block;
 }
 
 .country {
@@ -53,6 +54,12 @@ img {
 	background-color: #bd9b28;
 	text-shadow: 0 0 5px #ffff00;
 	box-shadow: 0 0 5px #ffff00;
+}
+
+.copyright {
+	font-size: 16px;
+	line-height: 20px;
+	float: right;
 }
 
 #nameDisplay {
