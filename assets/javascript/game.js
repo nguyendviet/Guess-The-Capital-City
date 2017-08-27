@@ -100,89 +100,93 @@ function gameLost() {
 }
 
 function showCountry() {
-	if (nameChosen === "Abuja") {
-		document.getElementById("ng").style.display = "block";
-	}
-	else if (nameChosen === "Accra") {
-		document.getElementById("gh").style.display = "block";
-	}
-	else if (nameChosen === "Basseterre") {
-		document.getElementById("kn").style.display = "block";
-	}
-	else if (nameChosen === "Belmopan") {
-		document.getElementById("bz").style.display = "block";
-	}
-	else if (nameChosen === "Bridgetown") {
-		document.getElementById("bb").style.display = "block";
-	}
-	else if (nameChosen === "Canberra") {
-		document.getElementById("au").style.display = "block";
-	}
-	else if (nameChosen === "Freetown") {
-		document.getElementById("sl").style.display = "block";
-	}
-	else if (nameChosen === "Georgetown") {
-		document.getElementById("gy").style.display = "block";
-	}
-	else if (nameChosen === "Hanoi") {
-		document.getElementById("vn").style.display = "block";
-	}
-	else if (nameChosen === "Kingston") {
-		document.getElementById("jm").style.display = "block";
-	}
-	else if (nameChosen === "Kingstown") {
-		document.getElementById("vc").style.display = "block";
-	}
-	else if (nameChosen === "London") {
-		document.getElementById("uk").style.display = "block";
-	}
-	else if (nameChosen === "Nairobi") {
-		document.getElementById("ke").style.display = "block";
-	}
-	else if (nameChosen === "Nassau") {
-		document.getElementById("bs").style.display = "block";
-	}
-	else if (nameChosen === "Ottawa") {
-		document.getElementById("ca").style.display = "block";
-	}
-	else if (nameChosen === "Port of Spain") {
-		document.getElementById("tt").style.display = "block";
-	}
-	else if (nameChosen === "Roseau") {
-		document.getElementById("dm").style.display = "block";
-	}
-	else if (nameChosen === "Singapore") {
-		document.getElementById("sg").style.display = "block";
-	}
-	else if (nameChosen === "St Georges") {
-		document.getElementById("gd").style.display = "block";
-	}
-	else if (nameChosen === "St Johns") {
-		document.getElementById("ag").style.display = "block";
-	}
-	else if (nameChosen === "Washington DC") {
-		document.getElementById("us").style.display = "block";
-	}
-	else if (nameChosen === "Wellington") {
-		document.getElementById("nz").style.display = "block";
+	switch (nameChosen) {
+		case "Abuja":
+			document.getElementById("ng").style.display = "block";
+		break;
+		case "Accra":
+			document.getElementById("gh").style.display = "block";
+		break;
+		case "Basseterre":
+			document.getElementById("kn").style.display = "block";
+		break;
+		case "Belmopan":
+			document.getElementById("bz").style.display = "block";
+		break;
+		case "Bridgetown":
+			document.getElementById("bb").style.display = "block";
+		break;
+		case "Canberra":
+			document.getElementById("au").style.display = "block";
+		break;
+		case "Freetown":
+			document.getElementById("sl").style.display = "block";
+		break;
+		case "Georgetown":
+			document.getElementById("gy").style.display = "block";
+		break;
+		case "Hanoi":
+			document.getElementById("vn").style.display = "block";
+		break;
+		case "Kingston":
+			document.getElementById("jm").style.display = "block";
+		break;
+		case "Kingstown":
+			document.getElementById("vc").style.display = "block";
+		break;
+		case "London":
+			document.getElementById("uk").style.display = "block";
+		break;
+		case "Nairobi":
+			document.getElementById("ke").style.display = "block";
+		break;
+		case "Nassau":
+			document.getElementById("bs").style.display = "block";
+		break;
+		case "Ottawa":
+			document.getElementById("ca").style.display = "block";
+		break;
+		case "Port of Spain":
+			document.getElementById("tt").style.display = "block";
+		break;
+		case "Roseau":
+			document.getElementById("dm").style.display = "block";
+		break;
+		case "Singapore":
+			document.getElementById("sg").style.display = "block";
+		break;
+		case "St Georges":
+			document.getElementById("gd").style.display = "block";
+		break;
+		case "St Johns":
+			document.getElementById("ag").style.display = "block";
+		break;
+		case "Washington DC":
+			document.getElementById("us").style.display = "block";
+		break;
+		case "Wellington":
+			document.getElementById("nz").style.display = "block";
+		break;
 	}
 }
 
 function playAnthem() {
-	if (nameChosen === "Canberra") {
-		document.getElementById("anthemAu").play();
-	}
-	else if (nameChosen === "Hanoi") {
-		document.getElementById("anthemVn").play();
-	}
-	else if (nameChosen === "London") {
-		document.getElementById("anthemUk").play();
-	}
-	else if (nameChosen === "Ottawa") {
-		document.getElementById("anthemCa").play();
-	}
-	else if (nameChosen === "Washington DC") {
-		document.getElementById("anthemUs").play();
+	switch(nameChosen) {
+		case "Canberra":
+			document.getElementById("anthemAu").play();
+		break;
+		case "Hanoi":
+			document.getElementById("anthemVn").play();
+		break;
+		case "London":
+			document.getElementById("anthemUk").play();
+		break;
+		case "Ottawa":
+			document.getElementById("anthemCa").play();
+		break;
+		case "Washington DC":
+			document.getElementById("anthemUs").play();
+		break;
 	}
 }
 
